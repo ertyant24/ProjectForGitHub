@@ -1,0 +1,13 @@
+﻿internal class Program
+{
+    private static void Main(string[] args)
+    {
+        int a = 5; 
+        int b = 6;
+        int c = 7;
+
+        int toplam = a + b + c;
+        string _msg = $"Toplam : {toplam}";
+        Console.WriteLine(_msg);
+    }
+}
