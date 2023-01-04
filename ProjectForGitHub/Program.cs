@@ -15,5 +15,11 @@
         int cıkarma = (a + b) - c;
         string _msg1 = $"Çıkarma : {cıkarma}";
         Console.WriteLine(_msg1);
+        
+        Console.WriteLine("");
+
+        int carpma = a * b * c;
+        string _msg2 = $"Çarpma : {carpma}";
+        Console.WriteLine(_msg2);
     }
 }
